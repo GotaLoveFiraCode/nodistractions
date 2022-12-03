@@ -25,9 +25,6 @@
 		}
 
 		a:link, a:visited {
-			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-			margin: 9px;
-			padding: 5px;
 			text-decoration: none;
 			color: ghostwhite;
 			border: 1px solid ghostwhite;
@@ -36,28 +33,29 @@
 
 		a:hover, a:active {
 			text-decoration: none;
-			color: ghostwhite;
+			color: whitesmoke;
 			border: 1px solid whitesmoke;
 			border-radius: 5px;
 			background-color: black;
 		}
 
-		.down {
-			border: 3px solid whitesmoke;
-			margin: 15px;
+		.m {
 			padding: 5px;
-			border-radius: 5px;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			margin: 9px;
 		}
 
 	</style>
 </head>
 <body>
 	<div class="div">
-		<a href="files/filter.txt">.txt file</a>
-		<br>
-		<a class="down" href="files/hosts">Download</a>
-		<br>
-		<a href="files/hosts.html">Hosts HTML file</a>
+		<div class="m">
+			<a href="files/filter.txt">.txt file</a>
+			<br>
+			<a href="files/hosts">Download</a>
+			<br>
+			<a href="files/hosts.html">Hosts HTML file</a>
+		</div>
 	</div>
 </body>
 </html>
