@@ -9,17 +9,18 @@
 	<style type="text/css">
 
 		body {
-			color: whitesmoke;
-			margin: auto;
-			font-family: sans-serif;
-			border-radius: 25px;
-			background-image: linear-gradient(to right top, green, purple, blue);
-			box-shadow: 10px 10px 5px black;
-			text-align: center;
+			margin: 0;
+			padding: 3px;
 		}
 
-		div {
-			margin 5px
+		.div {
+			box-shadow: 10px 10px 5px black;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			text-align: center;
+			margin: 5px;
+			border-radius: 25px;
+			font-family: sans-serif;
+			background-image: linear-gradient(to right top, yellow, orange, red, blue, green, violet);
 		}
 
 		a:link, a:visited {
@@ -43,14 +44,12 @@
 	</style>
 </head>
 <body>
-	<div>
+	<div class="div">
 		<div class="link">
 			<a href="files/filter.txt">.txt file</a>
 			<br>
-			<hr>
 			<a href="files/hosts">Download</a>
 			<br>
-			<hr>
 			<a href="files/hosts.html">Hosts HTML file</a>
 		</div>
 	</div>
