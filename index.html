@@ -22,6 +22,7 @@
 			border-radius: 25px;
 			font-family: Helvetica, sans-serif;
 			background-image: linear-gradient(to right top, yellow, orange, red, blue, green, violet);
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 		}
 
 		a:link, a:visited {
@@ -39,23 +40,15 @@
 			background-color: black;
 		}
 
-		.m {
-			padding: 99px;
-			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-			margin: 9px;
-		}
-
 	</style>
 </head>
 <body>
 	<div class="div">
-		<div class="m">
-			<a href="files/filter.txt">.txt file</a>
-			<br>
-			<a href="files/hosts">Download</a>
-			<br>
-			<a href="files/hosts.html">Hosts HTML file</a>
-		</div>
+		<a class="link1" href="files/filter.txt">.txt file</a>
+		<br>
+		<a class="link2" href="files/hosts">Download</a>
+		<br>
+		<a class="link3" href="files/hosts.html" target="_blank">Hosts HTML file</a>
 	</div>
 </body>
 </html>
