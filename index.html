@@ -7,8 +7,8 @@
 	<title>NoDistraction FilterList</title>
 	<meta name="author" content="Laurens Rosinski">
 	<style type="text/css">
-		div
-		{
+
+		div {
 			color: whitesmoke;
 			font-family: sans-serif;
 			border-radius: 25px;
@@ -20,14 +20,34 @@
 			box-shadow: 10px 10px 5px black;
 			text-align: center;
 		}
+
+		a:link, a:visited {
+			text-decoration: bold;
+			color: whitesmoke;
+		}
+
+		a:hover, a:active {
+			text-decoration: italic;
+			color: ghostwhite;
+			border-style: dotted;
+			border-radius: 3px;
+			background-color: red;
+		}
+
+		.link {
+			text-decoration: bold;
+			border: 3px solid whitesmoke;
+			border-radius: 1em;
+		}
+
 	</style>
 </head>
 <body>
 	<div>
 		<h1>HELLO</h1>
-		<a href="files/filter.txt">The txt file</a>
-		<a href="files/hosts">Hosts File</a>
-		<a href="files/hosts.html">Hosts HTML file</a>
+		<a class="link" href="files/filter.txt">The txt file</a>
+		<a class="link" href="files/hosts">Hosts File</a>
+		<a class="link" href="files/hosts.html">Hosts HTML file</a>
 	</div>
 </body>
 </html>
