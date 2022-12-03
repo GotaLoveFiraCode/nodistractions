@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>NoDistraction FilterList</title>
 	<meta name="author" content="Laurens Rosinski">
@@ -16,7 +17,7 @@
 		.div {
 			margin: 9px;
 			padding: 5px;
-			height: 500px;
+			height: 99%;
 			box-shadow: 10px 10px 5px dimgrey;
 			text-align: center;
 			border: 1px solid lightblue;
@@ -44,26 +45,22 @@
 			font-size: xx-large;
 		}
 
-		.link1 {}
-
-		.link2 {
-			background-color: red;
-		}
-
-		.link3 {}
+		.links-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+	    }
 
 	</style>
 </head>
 <body>
 	<div class="div">
-		<div>
-			<a class="link1" href="files/filter.txt" target="_blank">.txt file</a>
-		</div>
-		<div>
-			<a class="link3" href="files/hosts.html" target="_blank">Hosts HTML file</a>
-		</div>
-		<div>
-			<a class="link2" href="files/hosts">Download</a>
+		<div class="links-container">
+			<a href="files/filter.txt" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">TXT file</a>
+			<a href="files/hosts" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">DOWNLOAD</a>
+			<a href="files/hosts.html" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">HTML file</a>
 		</div>
 	</div>
 </body>
